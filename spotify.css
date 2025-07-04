@@ -1,102 +1,131 @@
 body{
     background-color:antiquewhite;margin:0;padding:0
-    } 
-    nav{
-        font-family:'Ubuntu',sans-serif;
-    }
-    nav ul{
-        display:flex;
-        align-items:center;
-        list-style-type:none;
-        height:100px;
-        background-color: black;
-        color:white;
-    }
-    nav ul li{
-        padding: 0 18px;
-    }
-    .brand img{
-        width: 64px;
-        padding: 0 8px;
-    }
-    .brand{
-        display: flex;
-        align-items:center;
-        font-size:2.3rem;
-    }
-    .container{
-        min-height:75vh;
-        background-color:black;
-        color:white;
-        font-family:'Varela Round' , sans-serif;
-        display:flex;
-        margin:29px auto;
-        width:62%;
-        background-image:url('https://e0.pxfuel.com/wallpapers/1004/684/desktop-wallpaper-shreya-ghoshal.jpg')
-    }
-    .bottom{
-        position:sticky;
-        height:130px;
-        background-color:black;
-        color: white;
-        bottom:0;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        flex-direction:column;
-    }
-    .icons{
-        cursor:pointer;
-        margin-top: 14px;
-    }
-    #myProgressBar{
-        width:80vw;
-        cursor:pointer;
-    }
-    .songItem{
-        height:50px;
-        display:flex;
-        width: 50%;
-        color:white;
-        margin:12px 0;
-        margin-left:10px;
-        border-radius: 25px;
-    }
-    .songName{
-        padding-top:16px;
-    }
-    .songlistplay{
-        padding-top:17px;
-        cursor:pointer;
-    }
-    .songInfo{
-        position:absolute;
-        left:10vw;
-        color:white;
-        font-family:'Varela Round', sans-serif;
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-    .songInfo p {
-        margin-left: 36px;  
-        margin-right: 200px;
-        display: inline-block;
-        visibility: bolder;
-        animation: scrollText 6s linear infinite;
-    }
-    @keyframes scrollText {
-        0%   { transform: translateX(0ch); }
-        20%  { transform: translateX(-1ch); }
-        40%  { transform: translateX(-2ch); }
-        60%  { transform: translateX(-3ch); }
-        80%  { transform: translateX(-4ch); }
-        100% { transform: translateX(-5ch); }
-    }
-    .songNo{
-        padding-top:16px;
-    }
-    .songInfo img{
-        opacity:0;
-        transition:opacity 0.5s ease-in;
-    }
+} 
+nav{
+    font-family:'Ubuntu',sans-serif;
+ }
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    height:100px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding: 0 18px;
+}
+.home-page-link {
+   display: block;
+   margin-left: 1cm;
+   font-size: 1.2rem;
+   text-align: right;
+   text-decoration: none;
+   color: white;
+}
+.home-page-link:hover {
+  text-decoration: underline;
+}
+.about-page-link {
+  display: block;
+  margin-left: 1cm;
+  font-size: 1.2rem;
+  text-align: right;
+  text-decoration: none;
+  color: white;
+}
+.about-page-link:hover {
+  text-decoration: underline;
+}
+.brand img{
+    width: 64px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items:center;
+    font-size:2.3rem;
+}
+.container{
+    min-height:75vh;
+    background-color:black;
+    color:white;
+    font-family:'Varela Round' , sans-serif;
+    display:flex;
+    margin:29px auto;
+    width:62%;
+    background-image:url('https://e0.pxfuel.com/wallpapers/1004/684/desktop-wallpaper-shreya-ghoshal.jpg')
+}
+.bottom{
+    position:sticky;
+    height:130px;
+    background-color:black;
+    color: white;
+    bottom:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.icons{
+    cursor:pointer;
+}
+#myProgressBar{
+    width:80vw;
+    cursor:pointer;
+}
+#currentTime {
+    margin-right: 15cm;
+}
+#totalTime {
+    margin-left: 15cm;
+}
+.songItem{
+    height:50px;
+    display:flex;
+    width: 50%;
+    color:white;
+    margin:12px 0;
+    margin-left:10px;
+    border-radius: 25px;
+}
+.songName{
+    padding-top:16px;
+    cursor: pointer;
+}
+.songlistplay{
+    padding-top:17px;
+    cursor:pointer;
+}
+.songInfo{
+    position:absolute;
+    margin-top: 10px;
+    left:10vw;
+    color:white;
+    font-family:'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.songInfo p {
+    margin-left: 36px;  
+    margin-right: 200px;
+    display: inline-block;
+    visibility: bolder;
+    animation: scrollText 6s linear infinite;
+}
+@keyframes scrollText {
+    0%   { transform: translateX(0ch); }
+    20%  { transform: translateX(-1ch); }
+    40%  { transform: translateX(-2ch); }
+    60%  { transform: translateX(-3ch); }
+    80%  { transform: translateX(-4ch); }
+    100% { transform: translateX(-5ch); }
+}
+.songNo{
+    padding-top:16px;
+}
+.songInfo img{
+    opacity:0;
+    transition:opacity 0.5s ease-in;
+}
