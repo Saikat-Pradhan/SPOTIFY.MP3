@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { songname: "Jeene Laga Hu - Ramaiya Vastavaiya", filePath: "3.mp3" },
         { songname: "Maheroo Maheroo - Super nani", filePath: "4.mp3" },
         { songname: "Zihaal E Miskin - Album Song", filePath: "5.mp3" },
+        { songname: "Teri Meri - Bodyguard", filePath: "6.mp3" },
+        { songname: "Deewani Mastani - Bajirao Mastani", filePath: "7.mp3" },
+        { songname: "Teri Ore - Singh Is Kinng", filePath: "8.mp3" }
     ];
 
     // Play or pause the song
@@ -57,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Forward button — go to next song
     forWard.addEventListener('click', () => {
         if(songIndex==0){
-            songIndex = 4;
+            songIndex = 7;
         }else{
             songIndex--;
         }
@@ -66,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Backward button — go to previous song
     backWard.addEventListener('click', () => {
-        if(songIndex==4){
+        if(songIndex==7){
             songIndex = 0;
         }else{
             songIndex++;
