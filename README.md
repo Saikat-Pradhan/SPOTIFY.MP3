@@ -16,4 +16,6 @@ Features:
 - CSS
 - JavaScript
 
-Deploy Link: "https://spotify-mp3-5sl6.onrender.com"
+Deployment Link: "https://spotify-mp3-5sl6.onrender.com"
+----------------
+If you're browsing from a desktop, feel free to use the link above for the best experience.
