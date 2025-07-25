@@ -1,0 +1,52 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+  body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .home-page-link,
+  .about-page-link,
+  .arijit-page-link,
+  .shreya-page-link,
+  .sonu-page-link,
+  .kk-page-link,
+  .old90s-page-link {
+    margin-left: 0.5cm;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .home-container,
+  .shreya-container,
+  .sonu-container,
+  .old90s-container,
+  .kk-container,
+  .arijit-container,
+  .about-container {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .home-container h1 {
+    font-size: 2rem;
+    margin-left: 0.5cm;
+  }
+
+  #currentTime,
+  #totalTime {
+    margin: 0;
+  }
+
+  .welcome h1 {
+    font-size: 2.5rem;
+  }
+
+  /* other styles can be adapted similarly if needed */
+}

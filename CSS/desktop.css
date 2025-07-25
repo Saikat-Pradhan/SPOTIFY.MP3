@@ -1,0 +1,84 @@
+/* Desktop Styles */
+@media (min-width: 768px) {
+  body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 100px;
+    background-color: black;
+    color: white;
+  }
+
+  nav ul li {
+    padding: 0 18px;
+  }
+
+  .home-page-link,
+  .about-page-link,
+  .arijit-page-link,
+  .shreya-page-link,
+  .sonu-page-link,
+  .kk-page-link,
+  .old90s-page-link {
+    display: block;
+    margin-left: 2cm;
+    font-size: 1.2rem;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+  }
+
+  .home-page-link:hover,
+  .about-page-link:hover,
+  .arijit-page-link:hover,
+  .shreya-page-link:hover,
+  .sonu-page-link:hover,
+  .kk-page-link:hover,
+  .old90s-page-link:hover {
+    text-decoration: underline;
+    color: rgb(29, 159, 199);
+  }
+
+  /* container widths and headings */
+  .home-container,
+  .shreya-container,
+  .sonu-container,
+  .old90s-container,
+  .kk-container {
+    width: 62%;
+  }
+
+  .arijit-container {
+    width: 55%;
+  }
+
+  .home-container h1 {
+    font-size: 3rem;
+    margin-left: 1.3cm;
+  }
+
+  .about-container {
+    margin-left: 4cm;
+    width: 75%;
+  }
+
+  #currentTime {
+    margin-right: 15cm;
+  }
+
+  #totalTime {
+    margin-left: 15cm;
+  }
+
+  /* other existing styles remain unchanged */
+}
