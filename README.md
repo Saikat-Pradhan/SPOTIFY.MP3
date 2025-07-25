@@ -18,4 +18,4 @@ Features:
 
 Deployment Link: "https://spotify-mp3-5sl6.onrender.com"
 ----------------
-If you're browsing from a desktop, feel free to use the link above for the best experience.
+Whether you're on mobile or desktop, this link is fully optimized to deliver a seamless experience across all devices.
