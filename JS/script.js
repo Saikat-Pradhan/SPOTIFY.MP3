@@ -13,6 +13,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentSongCurrentTime = document.getElementById('currentTime');
     const currentSongTotalTime = document.getElementById('totalTime');
 
+    // Toggle logic
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleButton = document.getElementById('menuToggle');
+        const optionsMenu = document.getElementById('options'); // this matches your HTML id
+
+        if (toggleButton && optionsMenu) {
+            toggleButton.addEventListener('click', function () {
+                optionsMenu.classList.toggle('active');
+            });
+        }
+    });
+
     // Handle navigation clicks
     const singerLinks = document.querySelectorAll("a[class$='-page-link']");
     singerLinks.forEach(link => {
@@ -118,9 +130,9 @@ document.addEventListener('DOMContentLoaded', () => {
         item.addEventListener('click', () => {
             const index = parseInt(item.id); // Assuming each .songName element has an ID like "0", "1", etc.
             if (!isNaN(index)) {
-                 playSongAt(index, true); // Play the selected song
+                playSongAt(index, true); // Play the selected song
             } else {
-                 console.warn("Invalid song index on element:", item);
+                console.warn("Invalid song index on element:", item);
             }
         });
     });
