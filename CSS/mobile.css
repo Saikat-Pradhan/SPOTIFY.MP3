@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media screen and (min-width: 280px) and (max-width: 576px)  {
+@media screen and (min-width: 280px) and (max-width: 576px){
   body {
     background-color: rgb(241, 211, 171);
     margin: 0;

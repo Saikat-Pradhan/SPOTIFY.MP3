@@ -1,5 +1,5 @@
 /* Desktop Styles */
-@media screen and ((min-width: 576px) or (max-width: 1024px))   {
+@media screen and ((min-width: 576px) or (max-width: 1024px)) {
   body {
     background-color: antiquewhite;
     margin: 0;
