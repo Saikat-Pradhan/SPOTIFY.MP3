@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media screen and (min-width: 280px) and (max-width: 576px){
+@media screen and (min-width: 280px) and (max-width: 576px) {
   body {
     background-color: rgb(241, 211, 171);
     margin: 0;
@@ -163,6 +163,8 @@
   }
 
   .options {
+    position: absolute;
+    z-index: 1000;
     display: none;
     flex-direction: column;
     background-color: rgb(25, 171, 171);
@@ -216,7 +218,7 @@
     display: flex;
     margin: 29px auto;
     width: 82%;
-    background-image: url("https://i.pinimg.com/736x/a1/04/7d/a1047df098d91036bfa73d75b36b32c7.jpg"); 
+    background-image: url("https://i.pinimg.com/736x/a1/04/7d/a1047df098d91036bfa73d75b36b32c7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -319,7 +321,7 @@
 
   .bottom {
     position: sticky;
-    height: 152px;
+    height: 172px;
     background-color: black;
     color: white;
     bottom: 0;

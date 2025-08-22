@@ -165,7 +165,10 @@
     display: flex;
     margin: 29px auto;
     width: 62%;
-    background-image: url('https://e0.pxfuel.com/wallpapers/1004/684/desktop-wallpaper-shreya-ghoshal.jpg')
+    background-image: url('https://e0.pxfuel.com/wallpapers/1004/684/desktop-wallpaper-shreya-ghoshal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .arijit-container {
@@ -176,7 +179,10 @@
     display: flex;
     margin: 29px auto;
     width: 55%;
-    background-image: url('https://e0.pxfuel.com/wallpapers/788/709/desktop-wallpaper-arijit-singh-to-perform-live-in-doha-as-part-of-shop-happy.jpg')
+    background-image: url('https://e0.pxfuel.com/wallpapers/788/709/desktop-wallpaper-arijit-singh-to-perform-live-in-doha-as-part-of-shop-happy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .sonu-container {
@@ -187,7 +193,10 @@
     display: flex;
     margin: 29px auto;
     width: 62%;
-    background-image: url('https://live.staticflickr.com/8192/8383044694_29ee488521_b.jpg')
+    background-image: url('https://live.staticflickr.com/8192/8383044694_29ee488521_b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .old90s-container {
@@ -198,7 +207,10 @@
     display: flex;
     margin: 29px auto;
     width: 62%;
-    background-image: url('https://static.iwmbuzz.com/wp-content/uploads/2020/01/top-kumar-sanu-and-alka-yagnik-duet-songs-of-90s-to-swoon-your-lover-920x518.jpg')
+    background-image: url('https://static.iwmbuzz.com/wp-content/uploads/2020/01/top-kumar-sanu-and-alka-yagnik-duet-songs-of-90s-to-swoon-your-lover-920x518.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .kk-container {
@@ -209,7 +221,10 @@
     display: flex;
     margin: 29px auto;
     width: 62%;
-    background-image: url('https://static.iwmbuzz.com/wp-content/uploads/2020/02/best-indian-singer-kk-songs-from-the-beginning-of-his-career-to-the-present-920x518.jpg')
+    background-image: url('https://static.iwmbuzz.com/wp-content/uploads/2020/02/best-indian-singer-kk-songs-from-the-beginning-of-his-career-to-the-present-920x518.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .about-container {
