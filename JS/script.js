@@ -36,47 +36,47 @@ document.addEventListener('DOMContentLoaded', () => {
             switch (targetPage) {
                 case "arijit.html":
                     songs = [
-                        { songname: "Sanam Re - sanam Re", time: "04:29", filePath: "./Songs/6.mp3" },
-                        { songname: "Janam Janam - Dilwale", time: "03:08", filePath: "./Songs/7.mp3" },
-                        { songname: "Hamari Adhuri Kahani - Hamari Adhuri Kahani", time: "05:45", filePath: "./Songs/8.mp3" },
-                        { songname: "Enna Sona - OK Jaanu", time: "03:40", filePath: "./Songs/9.mp3" },
-                        { songname: "Zaalima - Raees", time: "02:51", filePath: "./Songs/10.mp3" },
+                        { songname: "Sanam Re - sanam Re", time: "04:29", filePath: "../Songs/6.mp3" },
+                        { songname: "Janam Janam - Dilwale", time: "03:08", filePath: "../Songs/7.mp3" },
+                        { songname: "Hamari Adhuri Kahani - Hamari Adhuri Kahani", time: "05:45", filePath: "../Songs/8.mp3" },
+                        { songname: "Enna Sona - OK Jaanu", time: "03:40", filePath: "../Songs/9.mp3" },
+                        { songname: "Zaalima - Raees", time: "02:51", filePath: "../Songs/10.mp3" },
                     ];
                     break;
                 case "kk.html":
                     songs = [
-                        { songname: "Zara Sa - Jannat", time: "03:47", filePath: "./Songs/16.mp3" },
-                        { songname: "Haan Tu Hain - Jannat", time: "04:46", filePath: "./Songs/17.mp3" },
-                        { songname: "Tuhi Meri Shab Hai - Gangster", time: "06:41", filePath: "./Songs/18.mp3" },
-                        { songname: "Tera Mera Rista - Awarapan", time: "05:13", filePath: "./Songs/19.mp3" },
-                        { songname: "Kya Mujhe Pyaar Hai - Woh Lamhe", time: "04:23", filePath: "./Songs/20.mp3" },
+                        { songname: "Zara Sa - Jannat", time: "03:47", filePath: "../Songs/16.mp3" },
+                        { songname: "Haan Tu Hain - Jannat", time: "04:46", filePath: "../Songs/17.mp3" },
+                        { songname: "Tuhi Meri Shab Hai - Gangster", time: "06:41", filePath: "../Songs/18.mp3" },
+                        { songname: "Tera Mera Rista - Awarapan", time: "05:13", filePath: "../Songs/19.mp3" },
+                        { songname: "Kya Mujhe Pyaar Hai - Woh Lamhe", time: "04:23", filePath: "../Songs/20.mp3" },
                     ];
                     break;
                 case "shreya.html":
                     songs = [
-                        { songname: "Sun Raha Hai - Aashiqui2", time: "06:30", filePath: "./Songs/1.mp3" },
-                        { songname: "Haan Hansi Ban Gaye - Hamari Aadhuri Kahani", time: "03:12", filePath: "./Songs/2.mp3" },
-                        { songname: "Jeene Laga Hu - Ramaiya Vastavaiya", time: "03:56", filePath: "./Songs/3.mp3" },
-                        { songname: "Maheroo Maheroo - Super nani", time: "04:34", filePath: "./Songs/4.mp3" },
-                        { songname: "Deewani Mastani - Bajirao Mastani", time: "05:53", filePath: "./Songs/5.mp3" },
+                        { songname: "Sun Raha Hai - Aashiqui2", time: "06:30", filePath: "../Songs/1.mp3" },
+                        { songname: "Haan Hansi Ban Gaye - Hamari Aadhuri Kahani", time: "03:12", filePath: "../Songs/2.mp3" },
+                        { songname: "Jeene Laga Hu - Ramaiya Vastavaiya", time: "03:56", filePath: "../Songs/3.mp3" },
+                        { songname: "Maheroo Maheroo - Super nani", time: "04:34", filePath: "../Songs/4.mp3" },
+                        { songname: "Deewani Mastani - Bajirao Mastani", time: "05:53", filePath: "../Songs/5.mp3" },
                     ];
                     break;
                 case "sonu.html":
                     songs = [
-                        { songname: "Kal Ho Naa Ho - Kal Ho Naa Ho", time: "04:47", filePath: "./Songs/11.mp3" },
-                        { songname: "Abhi Mujh Mein Kahin - Agneepath", time: "04:15", filePath: "./Songs/12.mp3" },
-                        { songname: "Mere Hath Mein - Fanaa", time: "04:43", filePath: "./Songs/13.mp3" },
-                        { songname: "Tumse Milke Dil Ka - Main Hoon Na", time: "05:40", filePath: "./Songs/14.mp3" },
-                        { songname: "Suraj Hua Maddham - Kabhi Khushi Kabhi Gham", time: "07:57", filePath: "./Songs/15.mp3" },
+                        { songname: "Kal Ho Naa Ho - Kal Ho Naa Ho", time: "04:47", filePath: "../Songs/11.mp3" },
+                        { songname: "Abhi Mujh Mein Kahin - Agneepath", time: "04:15", filePath: "../Songs/12.mp3" },
+                        { songname: "Mere Hath Mein - Fanaa", time: "04:43", filePath: "../Songs/13.mp3" },
+                        { songname: "Tumse Milke Dil Ka - Main Hoon Na", time: "05:40", filePath: "../Songs/14.mp3" },
+                        { songname: "Suraj Hua Maddham - Kabhi Khushi Kabhi Gham", time: "07:57", filePath: "../Songs/15.mp3" },
                     ];
                     break;
                 case "old90s.html":
                     songs = [
-                        { songname: "Tere Liye - Veer Zaara", time: "05:33", filePath: "./Songs/21.mp3" },
-                        { songname: "Bahut Pyar Karte Hai - Saajan", time: "04:27", filePath: "./Songs/22.mp3" },
-                        { songname: "Main Yahaan Hoon - Veer Zaara", time: "04:56", filePath: "./Songs/23.mp3" },
-                        { songname: "Saat Samundar Paar - Vishwatma", time: "06:25", filePath: "./Songs/24.mp3" },
-                        { songname: "Janam Meri Janam - Mr. Bechara", time: "04:19", filePath: "./Songs/25.mp3" },
+                        { songname: "Tere Liye - Veer Zaara", time: "05:33", filePath: "../Songs/21.mp3" },
+                        { songname: "Bahut Pyar Karte Hai - Saajan", time: "04:27", filePath: "../Songs/22.mp3" },
+                        { songname: "Main Yahaan Hoon - Veer Zaara", time: "04:56", filePath: "../Songs/23.mp3" },
+                        { songname: "Saat Samundar Paar - Vishwatma", time: "06:25", filePath: "../Songs/24.mp3" },
+                        { songname: "Janam Meri Janam - Mr. Bechara", time: "04:19", filePath: "../Songs/25.mp3" },
                     ];
                     break;
             }
