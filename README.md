@@ -14,8 +14,7 @@ Designed with a modern UI, smooth animations, and dynamic audio playback, this l
 
 ## 🌐 Live Demo
 
-🎧 Listen Now:  
-https://spotify-mp3-5sl6.onrender.com
+🎧 Listen Now: https://spotify-mp3-saikat-pradhan-xfac.onrender.com/
 
 ---
 
@@ -92,8 +91,8 @@ Spotify.MP3/
 ### 1️⃣ Clone Repository
 
 ```
-git clone https://github.com/Saikat-Pradhan/Spotify.MP3.git
-cd Spotify.MP3
+https://github.com/Saikat-Pradhan/SPOTIFY.MP3.git
+cd SPOTIFY.MP3
 ```
 
 ### 2️⃣ Open in Browser
